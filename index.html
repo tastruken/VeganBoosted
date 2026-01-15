@@ -77,10 +77,10 @@
 
     <!-- Navigation -->
     <nav class="fixed w-full z-40 bg-off-black border-b-2 border-white top-0">
-        <div class="container mx-auto px-4 h-20 flex justify-between items-center">
-            <a href="#" class="text-3xl font-display tracking-wider uppercase">Boosted<span class="text-outline">Burger</span>.</a>
+        <div class="container mx-auto px-4 h-20 flex justify-between items-center gap-4">
+            <a href="#" class="text-2xl md:text-3xl font-display tracking-wider uppercase truncate">Boosted<span class="text-outline">Burger</span>.</a>
             
-            <div class="hidden md:flex space-x-8 font-bold tracking-widest uppercase text-sm">
+            <div class="hidden md:flex space-x-8 font-bold tracking-widest uppercase text-sm flex-shrink-0">
                 <a href="#menu" class="hover:underline decoration-2 underline-offset-4">Menú</a>
                 <a href="#about" class="hover:underline decoration-2 underline-offset-4">Concepto</a>
                 <a href="#locations" class="hover:underline decoration-2 underline-offset-4">Ubicación</a>
@@ -150,109 +150,109 @@
             <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-0 border-t-2 border-l-2 border-white">
                 
                 <!-- Item 1 -->
-                <div class="group border-r-2 border-b-2 border-white p-3 md:p-8 relative hover-invert cursor-pointer">
-                    <div class="flex flex-col md:flex-row justify-between items-start mb-2 md:mb-4 gap-1">
-                        <span class="bg-white text-black text-[10px] md:text-xs font-bold px-1 md:px-2 py-0.5 md:py-1 uppercase group-hover:bg-black group-hover:text-white">Best Seller</span>
+                <div class="group border-r-2 border-b-2 border-white p-4 md:p-8 relative hover-invert cursor-pointer">
+                    <div class="flex flex-col md:flex-row justify-between items-start mb-3 md:mb-4 gap-1">
+                        <span class="bg-white text-black text-[10px] md:text-xs font-bold px-2 py-1 uppercase group-hover:bg-black group-hover:text-white">Best Seller</span>
                         <span class="font-display text-lg md:text-2xl">$8.990</span>
                     </div>
-                    <h3 class="text-xl md:text-4xl font-display uppercase mb-1 md:mb-2 leading-none md:leading-tight">La Viuda Negra</h3>
-                    <p class="text-gray-400 group-hover:text-gray-600 mb-3 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
+                    <h3 class="text-xl md:text-4xl font-display uppercase mb-2 leading-none md:leading-tight">La Viuda Negra</h3>
+                    <p class="text-gray-400 group-hover:text-gray-600 mb-4 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
                         Pan de carbón activado, doble medallón de lentejas ahumadas, cebolla caramelizada oscura, "bacon" de berenjena y salsa secreta.
                     </p>
-                    <div class="w-full aspect-video overflow-hidden mb-3 md:mb-6 bg-gray-900">
+                    <div class="w-full aspect-video overflow-hidden mb-4 md:mb-6 bg-gray-900">
                         <img src="https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover bw-img" alt="Burger">
                     </div>
-                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-1 md:gap-2">
+                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2.5 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-2">
                         Agregar <i data-lucide="plus" class="w-3 h-3 md:w-4 md:h-4"></i>
                     </button>
                 </div>
 
                 <!-- Item 2 -->
-                <div class="group border-r-2 border-b-2 border-white p-3 md:p-8 relative hover-invert cursor-pointer">
-                    <div class="flex flex-col md:flex-row justify-between items-start mb-2 md:mb-4 gap-1">
-                        <span class="border border-white px-1 md:px-2 py-0.5 md:py-1 text-[10px] md:text-xs uppercase group-hover:border-black">Picante</span>
+                <div class="group border-r-2 border-b-2 border-white p-4 md:p-8 relative hover-invert cursor-pointer">
+                    <div class="flex flex-col md:flex-row justify-between items-start mb-3 md:mb-4 gap-1">
+                        <span class="border border-white px-2 py-1 text-[10px] md:text-xs uppercase group-hover:border-black">Picante</span>
                         <span class="font-display text-lg md:text-2xl">$9.500</span>
                     </div>
-                    <h3 class="text-xl md:text-4xl font-display uppercase mb-1 md:mb-2 leading-none md:leading-tight">Crisis Tofu</h3>
-                    <p class="text-gray-400 group-hover:text-gray-600 mb-3 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
+                    <h3 class="text-xl md:text-4xl font-display uppercase mb-2 leading-none md:leading-tight">Crisis Tofu</h3>
+                    <p class="text-gray-400 group-hover:text-gray-600 mb-4 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
                         Tofu frito crujiente estilo sureño, coleslaw morado, jalapeños encurtidos y mayonesa de sriracha en pan brioche vegano.
                     </p>
-                    <div class="w-full aspect-video overflow-hidden mb-3 md:mb-6 bg-gray-900">
+                    <div class="w-full aspect-video overflow-hidden mb-4 md:mb-6 bg-gray-900">
                         <img src="https://images.unsplash.com/photo-1530554764233-e79e16c91d08?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover bw-img" alt="Tofu Burger">
                     </div>
-                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-1 md:gap-2">
+                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2.5 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-2">
                         Agregar <i data-lucide="plus" class="w-3 h-3 md:w-4 md:h-4"></i>
                     </button>
                 </div>
 
                 <!-- Item 3 -->
-                <div class="group border-r-2 border-b-2 border-white p-3 md:p-8 relative hover-invert cursor-pointer">
-                    <div class="flex flex-col md:flex-row justify-between items-start mb-2 md:mb-4 gap-1">
-                        <span class="border border-white px-1 md:px-2 py-0.5 md:py-1 text-[10px] md:text-xs uppercase group-hover:border-black">Clásico</span>
+                <div class="group border-r-2 border-b-2 border-white p-4 md:p-8 relative hover-invert cursor-pointer">
+                    <div class="flex flex-col md:flex-row justify-between items-start mb-3 md:mb-4 gap-1">
+                        <span class="border border-white px-2 py-1 text-[10px] md:text-xs uppercase group-hover:border-black">Clásico</span>
                         <span class="font-display text-lg md:text-2xl">$7.990</span>
                     </div>
-                    <h3 class="text-xl md:text-4xl font-display uppercase mb-1 md:mb-2 leading-none md:leading-tight">Not-Dog Punk</h3>
-                    <p class="text-gray-400 group-hover:text-gray-600 mb-3 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
+                    <h3 class="text-xl md:text-4xl font-display uppercase mb-2 leading-none md:leading-tight">Not-Dog Punk</h3>
+                    <p class="text-gray-400 group-hover:text-gray-600 mb-4 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
                         Salchicha de seitán ahumada, mostaza antigua, chucrut casero y lluvia de papas hilo en pan de masa madre.
                     </p>
-                    <div class="w-full aspect-video overflow-hidden mb-3 md:mb-6 bg-gray-900">
+                    <div class="w-full aspect-video overflow-hidden mb-4 md:mb-6 bg-gray-900">
                         <img src="https://images.unsplash.com/photo-1619740455993-9e41237a279c?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover bw-img" alt="Hot Dog">
                     </div>
-                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-1 md:gap-2">
+                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2.5 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-2">
                         Agregar <i data-lucide="plus" class="w-3 h-3 md:w-4 md:h-4"></i>
                     </button>
                 </div>
 
                 <!-- Item 4 -->
-                <div class="group border-r-2 border-b-2 border-white p-3 md:p-8 relative hover-invert cursor-pointer">
-                    <div class="flex flex-col md:flex-row justify-between items-start mb-2 md:mb-4 gap-1">
-                        <span class="border border-white px-1 md:px-2 py-0.5 md:py-1 text-[10px] md:text-xs uppercase group-hover:border-black">Side</span>
+                <div class="group border-r-2 border-b-2 border-white p-4 md:p-8 relative hover-invert cursor-pointer">
+                    <div class="flex flex-col md:flex-row justify-between items-start mb-3 md:mb-4 gap-1">
+                        <span class="border border-white px-2 py-1 text-[10px] md:text-xs uppercase group-hover:border-black">Side</span>
                         <span class="font-display text-lg md:text-2xl">$4.500</span>
                     </div>
-                    <h3 class="text-xl md:text-4xl font-display uppercase mb-1 md:mb-2 leading-none md:leading-tight">Papas Caos</h3>
-                    <p class="text-gray-400 group-hover:text-gray-600 mb-3 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
+                    <h3 class="text-xl md:text-4xl font-display uppercase mb-2 leading-none md:leading-tight">Papas Caos</h3>
+                    <p class="text-gray-400 group-hover:text-gray-600 mb-4 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
                         Papas rústicas con piel, bañadas en queso cheddar de anacardos, cebollín y trozos de soja texturizada crujiente.
                     </p>
-                    <div class="w-full aspect-video overflow-hidden mb-3 md:mb-6 bg-gray-900">
+                    <div class="w-full aspect-video overflow-hidden mb-4 md:mb-6 bg-gray-900">
                         <img src="https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover bw-img" alt="Fries">
                     </div>
-                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-1 md:gap-2">
+                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2.5 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-2">
                         Agregar <i data-lucide="plus" class="w-3 h-3 md:w-4 md:h-4"></i>
                     </button>
                 </div>
 
                  <!-- Item 5 -->
-                 <div class="group border-r-2 border-b-2 border-white p-3 md:p-8 relative hover-invert cursor-pointer">
-                    <div class="flex flex-col md:flex-row justify-between items-start mb-2 md:mb-4 gap-1">
-                        <span class="border border-white px-1 md:px-2 py-0.5 md:py-1 text-[10px] md:text-xs uppercase group-hover:border-black">Side</span>
+                 <div class="group border-r-2 border-b-2 border-white p-4 md:p-8 relative hover-invert cursor-pointer">
+                    <div class="flex flex-col md:flex-row justify-between items-start mb-3 md:mb-4 gap-1">
+                        <span class="border border-white px-2 py-1 text-[10px] md:text-xs uppercase group-hover:border-black">Side</span>
                         <span class="font-display text-lg md:text-2xl">$3.900</span>
                     </div>
-                    <h3 class="text-xl md:text-4xl font-display uppercase mb-1 md:mb-2 leading-none md:leading-tight">Aros Saturno</h3>
-                    <p class="text-gray-400 group-hover:text-gray-600 mb-3 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
+                    <h3 class="text-xl md:text-4xl font-display uppercase mb-2 leading-none md:leading-tight">Aros Saturno</h3>
+                    <p class="text-gray-400 group-hover:text-gray-600 mb-4 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
                         Aros de cebolla gigantes rebozados en panko y cerveza negra, servidos con salsa BBQ ahumada.
                     </p>
-                    <div class="w-full aspect-video overflow-hidden mb-3 md:mb-6 bg-gray-900">
+                    <div class="w-full aspect-video overflow-hidden mb-4 md:mb-6 bg-gray-900">
                         <img src="https://images.unsplash.com/photo-1639024471283-03518883512d?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover bw-img" alt="Onion Rings">
                     </div>
-                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-1 md:gap-2">
+                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2.5 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-2">
                         Agregar <i data-lucide="plus" class="w-3 h-3 md:w-4 md:h-4"></i>
                     </button>
                 </div>
 
                 <!-- Item 6 -->
-                <div class="group border-r-2 border-b-2 border-white p-3 md:p-8 relative hover-invert cursor-pointer">
-                    <div class="flex flex-col md:flex-row justify-between items-start mb-2 md:mb-4 gap-1">
-                        <span class="border border-white px-1 md:px-2 py-0.5 md:py-1 text-[10px] md:text-xs uppercase group-hover:border-black">Drink</span>
+                <div class="group border-r-2 border-b-2 border-white p-4 md:p-8 relative hover-invert cursor-pointer">
+                    <div class="flex flex-col md:flex-row justify-between items-start mb-3 md:mb-4 gap-1">
+                        <span class="border border-white px-2 py-1 text-[10px] md:text-xs uppercase group-hover:border-black">Drink</span>
                         <span class="font-display text-lg md:text-2xl">$4.200</span>
                     </div>
-                    <h3 class="text-xl md:text-4xl font-display uppercase mb-1 md:mb-2 leading-none md:leading-tight">Batido Vantablack</h3>
-                    <p class="text-gray-400 group-hover:text-gray-600 mb-3 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
+                    <h3 class="text-xl md:text-4xl font-display uppercase mb-2 leading-none md:leading-tight">Batido Vantablack</h3>
+                    <p class="text-gray-400 group-hover:text-gray-600 mb-4 md:mb-6 text-xs md:text-sm font-light leading-snug md:leading-relaxed line-clamp-3 md:line-clamp-none">
                         Leche de almendras, galletas Oreo trituradas, helado de vainilla vegano y un toque de café espresso.
                     </p>
-                    <div class="w-full aspect-video overflow-hidden mb-3 md:mb-6 bg-gray-900">
+                    <div class="w-full aspect-video overflow-hidden mb-4 md:mb-6 bg-gray-900">
                         <img src="https://images.unsplash.com/photo-1577805947697-89e18249d767?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover bw-img" alt="Milkshake">
                     </div>
-                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-1 md:gap-2">
+                    <button onclick="addToCart(this)" class="w-full border-2 border-white py-2.5 md:py-3 font-bold uppercase text-[10px] md:text-sm group-hover:border-black transition-colors flex justify-center items-center gap-2">
                         Agregar <i data-lucide="plus" class="w-3 h-3 md:w-4 md:h-4"></i>
                     </button>
                 </div>
